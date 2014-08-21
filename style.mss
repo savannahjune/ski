@@ -1,3 +1,6 @@
+@futura_med: "Futura Medium";
+  
+
 Map {
   background-color: #b8dee6;
 }
@@ -22,6 +25,13 @@ Map {
 #lines {
   line-width:1;
   line-color:#168;
+  [zoom > 12] {
+  text-name:'[name]';
+  text-face-name: @futura_med;
+  text-placement: line;
+  text-size:12;
+  text-halo-fill:white;
+  text-halo-radius:3;}
 }
 
 
