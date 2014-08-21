@@ -10,3 +10,30 @@ Map {
   }
   polygon-fill: #fff;
 }
+
+#points {
+  marker-width:6;
+  marker-fill:#f45;
+  marker-line-color:#813;
+  marker-allow-overlap:true;
+}
+
+
+#lines {
+  line-width:1;
+  line-color:#168;
+}
+
+
+#polygons {
+  line-color:orange;
+  line-width:0.5;
+  polygon-opacity:1;
+  polygon-fill:orange;
+}
+
+
+#multilines {
+  line-width:1;
+  line-color:green;
+}

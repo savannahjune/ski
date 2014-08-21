@@ -28,6 +28,87 @@
         "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
         "type": "shape"
       }
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -149.742947,
+        -54.7985466,
+        174.9119246,
+        70.2873391
+      ],
+      "id": "points",
+      "class": "",
+      "Datasource": {
+        "file": "layers/points/pistespoints.shp",
+        "id": "points",
+        "project": "ski",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "points"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -177.905829,
+        -77.8127639,
+        176.2218714,
+        70.2873391
+      ],
+      "id": "lines",
+      "class": "",
+      "Datasource": {
+        "file": "layers/lines/pistelines.shp",
+        "id": "lines",
+        "project": "ski",
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+      },
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "lines"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -149.7790116,
+        -43.2089214,
+        176.9118254,
+        70.0391937
+      ],
+      "id": "polygons",
+      "class": "",
+      "Datasource": {
+        "file": "layers/polygons/polygons.shp",
+        "id": "polygons",
+        "project": "ski",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "polygons"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -123.2053426,
+        -37.027202,
+        147.3457405,
+        68.4692398
+      ],
+      "id": "multilines",
+      "class": "",
+      "Datasource": {
+        "file": "layers/multilines/multiline.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "multilines"
     }
   ],
   "scale": 1,
