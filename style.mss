@@ -16,15 +16,21 @@ Map {
 
 #points {
   marker-width:6;
-  marker-fill:#f45;
-  marker-line-color:#813;
+  marker-fill:black;
   marker-allow-overlap:true;
+  [zoom > 12] {
+  text-name:'[name]';
+  text-face-name: @futura_med;
+  text-dx: 4;
+  text-size:12;
+  text-halo-fill:white;
+  text-halo-radius:3;}
 }
 
 
 #lines {
   line-width:1;
-  line-color:#168;
+  line-color:black;
   [zoom > 12] {
   text-name:'[name]';
   text-face-name: @futura_med;
@@ -39,11 +45,11 @@ Map {
   line-color:orange;
   line-width:0.5;
   polygon-opacity:1;
-  polygon-fill:orange;
+  polygon-fill:white;
 }
 
 
 #multilines {
   line-width:1;
-  line-color:green;
+  line-color:black;
 }
