@@ -22,7 +22,7 @@ Map {
   text-name:'[name]';
   text-face-name: @futura_med;
   text-dx: 4;
-  text-size:12;
+  text-size:14;
   text-halo-fill:white;
   text-halo-radius:3;}
 }
@@ -35,7 +35,7 @@ Map {
   text-name:'[name]';
   text-face-name: @futura_med;
   text-placement: line;
-  text-size:12;
+  text-size:14;
   text-halo-fill:white;
   text-halo-radius:3;}
 }
